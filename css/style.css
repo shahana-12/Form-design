@@ -1,0 +1,57 @@
+body{
+	margin:0;
+	background-color: #130f40;
+}
+table{
+	background-color: #00b894;
+	width: 50%;
+}
+table h1{
+	color:#130f40;
+}
+table .tbl{
+	background-image: url(image/pic1.jpg);
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+}
+form input[type="text"]{
+	padding: 10px; 
+	border-radius:1rem;
+	border:none;
+	width: 50%;
+}
+form input[type="email"]{
+	padding: 10px; 
+	border-radius:1rem;
+	border:none;
+	width: 50%;
+}
+form input[type="number"]{
+	padding: 10px; 
+	border-radius:1rem;
+	border:none;
+	width: 50%;
+}
+form button{
+	padding: 8px; 
+	width: 20%; 
+	border :none; 
+	border-radius:3rem; 
+	background-color: #16a085;
+}
+/*responsive............*/
+@media (max-width: 900px) and (min-width: 700px){
+	table{
+		width: 80%;
+	}
+}
+@media (max-width: 699px) and (min-width: 500px){
+	table{
+		width: 80%;
+	}
+}
+@media (max-width: 599px) and (min-width: 300px){
+	table{
+		width: 80%;
+	}
+}
